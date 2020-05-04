@@ -1,13 +1,11 @@
 ---
 goals:
-  - 'HTML: Aufbau einer Webseite verstehen: Tags + Attribute.'
-  - 'HTML: Die wichtigsten HTML-Tags und Attribute kennen.'
-  - 'Trennung von Inhalt und Style'
-  - 'CSS: Funktionsweise von Selektoren und Formatierung verstehen.'
-  - 'CSS: Die wichtigsten Styles anwenden können.'
-  - Trennung zwischen Inhalt und Style verstehen.
-  - Einfaches Layout mit HTML + CSS umsetzen können.
+  - 'Die Shell'
+  - 'Navigation und Commandline Programme'
+  - 'Manipulation mit Dateien'
+  - 'Suchen und Finden'
+  - 'STDIN, STDOUT und andere Kanäle'
+  - Der Pipeoperator
+  - Das env (Evnironment)
 instruments:
-  - '[https://www.w3schools.com/html](https://www.w3schools.com/html)'
-  - '[https://www.w3schools.com/css](https://www.w3schools.com/css)'
-  - '[https://www.codecademy.com/catalog/language/html-css](https://www.codecademy.com/catalog/language/html-css)'
+  - '[https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/1_basic](https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/1_basic)'

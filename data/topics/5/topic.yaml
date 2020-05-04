@@ -1,0 +1,9 @@
+---
+  title: "Ansible"
+  description: "Hier wird der Servicegedanken automatisiert"
+  year_calendar_weeks:
+    ## Teamorganisation
+    5.1.1: 1 33-40
+    5.1.2: 2 33-40
+    ## Selbstorganiation
+    5.2.1: 1 33-40

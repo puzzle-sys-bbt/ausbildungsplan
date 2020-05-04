@@ -1,8 +1,8 @@
 # This is an automaticly generated file. Don't edit this file manually
 ---
 topics:
-- title: UI / Web
-  description: Verstehen und Entwickeln von Webseiten
+- title: Commandline
+  description: Das mit der Console
   year_calendar_weeks:
     1.1.1: 1 33-35
     1.1.2: 1 37-39
@@ -14,8 +14,8 @@ topics:
     1.3.1: 1 33-35
     1.3.2: 1 37-39
   id: '1'
-- title: Applikationsentwicklung
-  description: Verstehen und Entwickeln von Server- und Clientseitiger Software.
+- title: Das mit dem GIT
+  description: Sie wissen schon, dieses Git
   year_calendar_weeks:
     2.1.1: 1 33-40
     2.1.2: 2 40-41
@@ -30,8 +30,8 @@ topics:
     2.6.1: 1 45-5
     2.6.2: 2 5-6
   id: '2'
-- title: Tools / Dienste
-  description: Verwendung von Tools und Dienste.
+- title: Troubleshooting/Debugging
+  description: Wenns mal wieder laenger dauert
   year_calendar_weeks:
     3.1.1: 1 33-40
     3.2.1: 1 6-15
@@ -44,14 +44,42 @@ topics:
     4.1.2: 2 33-40
     4.2.1: 1 33-40
   id: '4'
+- title: Ansible
+  description: Hier wird der Servicegedanken automatisiert
+  year_calendar_weeks:
+    5.1.1: 1 33-40
+    5.1.2: 2 33-40
+    5.2.1: 1 33-40
+  id: '5'
+- title: Netzwerk Basics
+  description: Das mit diesen Kabel
+  year_calendar_weeks:
+    6.1.1: 1 33-40
+    6.1.2: 2 33-40
+    6.2.1: 1 33-40
+  id: '6'
+- title: Linux Basic
+  description: Das mit dem Pinguin
+  year_calendar_weeks:
+    7.1.1: 1 33-40
+    7.1.2: 2 33-40
+    7.2.1: 1 33-40
+  id: '7'
+- title: Hardware
+  description: Das mit dem Blaech
+  year_calendar_weeks:
+    8.1.1: 1 33-40
+    8.1.2: 2 33-40
+    8.2.1: 1 33-40
+  id: '8'
 competencies:
-- title: Statische Webseite
+- title: basic linux commands
   description: Aufbau und Gestaltung einer statischen Webseite mit HTML und CSS
   id: '1.1'
-- title: JavaScript in Webseiten
-  description: Einsatz von JavaScript in einer statischen Webseite.
+- title: Manpages Lab
+  description: Hier werden sie geholfen
   id: '1.2'
-- title: User Experience (UX)
+- title: Basic Text Processing Lab
   description: Design, Interaktion und Gebrauchstauglichkeit einer Webseite verbessern.
   id: '1.3'
 - title: Programmierung
@@ -88,19 +116,45 @@ competencies:
 - title: Selbstorganisation/Selbstkompetenz
   description: Persönliche Organisation, Kommunikation, Lernstrategien
   id: '4.2'
+- title: Team- / Projektorganisation
+  description: Methoden, Werkzeuge und Wissen rund um die Organisation im Team und
+    in Projekten.
+  id: '5.1'
+- title: Selbstorganisation/Selbstkompetenz
+  description: Persönliche Organisation, Kommunikation, Lernstrategien
+  id: '5.2'
+- title: Team- / Projektorganisation
+  description: Methoden, Werkzeuge und Wissen rund um die Organisation im Team und
+    in Projekten.
+  id: '6.1'
+- title: Selbstorganisation/Selbstkompetenz
+  description: Persönliche Organisation, Kommunikation, Lernstrategien
+  id: '6.2'
+- title: Team- / Projektorganisation
+  description: Methoden, Werkzeuge und Wissen rund um die Organisation im Team und
+    in Projekten.
+  id: '7.1'
+- title: Selbstorganisation/Selbstkompetenz
+  description: Persönliche Organisation, Kommunikation, Lernstrategien
+  id: '7.2'
+- title: Team- / Projektorganisation
+  description: Methoden, Werkzeuge und Wissen rund um die Organisation im Team und
+    in Projekten.
+  id: '8.1'
+- title: Selbstorganisation/Selbstkompetenz
+  description: Persönliche Organisation, Kommunikation, Lernstrategien
+  id: '8.2'
 competency_levels:
 - goals:
-  - 'HTML: Aufbau einer Webseite verstehen: Tags + Attribute.'
-  - 'HTML: Die wichtigsten HTML-Tags und Attribute kennen.'
-  - Trennung von Inhalt und Style
-  - 'CSS: Funktionsweise von Selektoren und Formatierung verstehen.'
-  - 'CSS: Die wichtigsten Styles anwenden können.'
-  - Trennung zwischen Inhalt und Style verstehen.
-  - Einfaches Layout mit HTML + CSS umsetzen können.
+  - Die Shell
+  - Navigation und Commandline Programme
+  - Manipulation mit Dateien
+  - Suchen und Finden
+  - STDIN, STDOUT und andere Kanäle
+  - Der Pipeoperator
+  - Das env (Evnironment)
   instruments:
-  - "[https://www.w3schools.com/html](https://www.w3schools.com/html)"
-  - "[https://www.w3schools.com/css](https://www.w3schools.com/css)"
-  - "[https://www.codecademy.com/catalog/language/html-css](https://www.codecademy.com/catalog/language/html-css)"
+  - "[https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/1_basic](https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/1_basic)"
   id: 1.1.1
 - goals:
   - Responsive Webseite verstehen und umsetzen können.
@@ -133,16 +187,12 @@ competency_levels:
   - "[https://sass-lang.com/documentation/syntax](https://sass-lang.com/documentation/syntax)"
   id: 1.1.4
 - goals:
-  - 'Was ist JavaScript: Entstehung, Versionen, Funktionsweise, Sandbox-Prinzip'
-  - JavaScript direkt in der HTML-Seite.
-  - JavaScript in eine separate Datei auslagern.
-  - Mit JavaScript einfache click-Handler umsetzen.
-  - Ein Formular validieren und absenden.
-  - 'Entwickler-Tools: Debuggen im Browser.'
+  - Was sind Manpages
+  - Wie ist eine Manpage aufgebaut?
+  - Verwendung von Manpages
+  - Erstellen einer eigenen Manpage
   instruments:
-  - https://www.ecma-international.org/ecma-262
-  - https://developer.mozilla.org/de/docs/Web/JavaScript
-  - https://wiki.selfhtml.org/wiki/JavaScript
+  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/2_man
   id: 1.2.1
 - goals:
   - Mit jQuery HTML-Tags in den DOM hinzufügen und bestehende HTML-Tags manipulieren.
@@ -307,6 +357,106 @@ competency_levels:
   instruments:
   - Learning by Doing
   id: 4.2.1
+- goals:
+  - Sich seiner Rolle im Team bewusst sein
+  - Aufgaben im Team identifizieren und übernehmen
+  - Verantwortung für Aufgaben übernehmen
+  - 'Kommunikation: '
+  instruments:
+  - Lern-Session
+  - 'Learning by Doing: Ämtli, Organisation von Events'
+  id: 5.1.1
+- goals:
+  - 'Projektmanagement: Meetings kennen und dessen Zweck verstehen'
+  - 'Projektmanagement: Rollen und Aufgabenverteilung'
+  instruments:
+  - Lern-Session
+  - Lernenden-Workshops
+  - 'Learning by Doing: Features/Aufgaben innerhalb der Projektorganisation umsetzen'
+  id: 5.1.2
+- goals:
+  - 'Kalender: Termineinladungen bestätigen/absagen, Termine erstellen/finden'
+  - 'Kalender: Abwesenheiten erfassen'
+  - 'Notizen: Bei allen Gesprächen/Meetings Notizen machen'
+  - eine Methode/Werkzeug kennen und anwenden für die Verwaltung der eigenen Aufgaben
+  instruments:
+  - Learning by Doing
+  id: 5.2.1
+- goals:
+  - Sich seiner Rolle im Team bewusst sein
+  - Aufgaben im Team identifizieren und übernehmen
+  - Verantwortung für Aufgaben übernehmen
+  - 'Kommunikation: '
+  instruments:
+  - Lern-Session
+  - 'Learning by Doing: Ämtli, Organisation von Events'
+  id: 6.1.1
+- goals:
+  - 'Projektmanagement: Meetings kennen und dessen Zweck verstehen'
+  - 'Projektmanagement: Rollen und Aufgabenverteilung'
+  instruments:
+  - Lern-Session
+  - Lernenden-Workshops
+  - 'Learning by Doing: Features/Aufgaben innerhalb der Projektorganisation umsetzen'
+  id: 6.1.2
+- goals:
+  - 'Kalender: Termineinladungen bestätigen/absagen, Termine erstellen/finden'
+  - 'Kalender: Abwesenheiten erfassen'
+  - 'Notizen: Bei allen Gesprächen/Meetings Notizen machen'
+  - eine Methode/Werkzeug kennen und anwenden für die Verwaltung der eigenen Aufgaben
+  instruments:
+  - Learning by Doing
+  id: 6.2.1
+- goals:
+  - Sich seiner Rolle im Team bewusst sein
+  - Aufgaben im Team identifizieren und übernehmen
+  - Verantwortung für Aufgaben übernehmen
+  - 'Kommunikation: '
+  instruments:
+  - Lern-Session
+  - 'Learning by Doing: Ämtli, Organisation von Events'
+  id: 7.1.1
+- goals:
+  - 'Projektmanagement: Meetings kennen und dessen Zweck verstehen'
+  - 'Projektmanagement: Rollen und Aufgabenverteilung'
+  instruments:
+  - Lern-Session
+  - Lernenden-Workshops
+  - 'Learning by Doing: Features/Aufgaben innerhalb der Projektorganisation umsetzen'
+  id: 7.1.2
+- goals:
+  - 'Kalender: Termineinladungen bestätigen/absagen, Termine erstellen/finden'
+  - 'Kalender: Abwesenheiten erfassen'
+  - 'Notizen: Bei allen Gesprächen/Meetings Notizen machen'
+  - eine Methode/Werkzeug kennen und anwenden für die Verwaltung der eigenen Aufgaben
+  instruments:
+  - Learning by Doing
+  id: 7.2.1
+- goals:
+  - Sich seiner Rolle im Team bewusst sein
+  - Aufgaben im Team identifizieren und übernehmen
+  - Verantwortung für Aufgaben übernehmen
+  - 'Kommunikation: '
+  instruments:
+  - Lern-Session
+  - 'Learning by Doing: Ämtli, Organisation von Events'
+  id: 8.1.1
+- goals:
+  - 'Projektmanagement: Meetings kennen und dessen Zweck verstehen'
+  - 'Projektmanagement: Rollen und Aufgabenverteilung'
+  instruments:
+  - Lern-Session
+  - Lernenden-Workshops
+  - 'Learning by Doing: Features/Aufgaben innerhalb der Projektorganisation umsetzen'
+  id: 8.1.2
+- goals:
+  - 'Kalender: Termineinladungen bestätigen/absagen, Termine erstellen/finden'
+  - 'Kalender: Abwesenheiten erfassen'
+  - 'Notizen: Bei allen Gesprächen/Meetings Notizen machen'
+  - eine Methode/Werkzeug kennen und anwenden für die Verwaltung der eigenen Aufgaben
+  instruments:
+  - Learning by Doing
+  id: 8.2.1
 conf:
 - semester:
   - start_at_week_nr: 33

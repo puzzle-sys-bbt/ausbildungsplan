@@ -43,7 +43,26 @@ table th:first-child {
   border: none;
   color: white;
 }
-
+._5 {
+  background-color: #184200;
+  border: none;
+  color: white;
+}
+._6 {
+  background-color: #286c87;
+  border: none;
+  color: white;
+}
+._7 {
+  background-color: #8d2191;
+  border: none;
+  color: white;
+}
+._8 {
+  background-color: #1321b1;
+  border: none;
+  color: white;
+}
 .dropdown-content {
   display: none;
   color: black;
