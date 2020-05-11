@@ -1,0 +1,3 @@
+---
+title: "scripting"
+description: "if (coffee.Empty){coffee.Refill();}else{coffee.Drink();}"

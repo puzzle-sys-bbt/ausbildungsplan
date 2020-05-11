@@ -51,38 +51,6 @@ describe Semester do
     expect(in_semester4).to be true
   end
 
-  it 'should confirm level in semester 5' do
-    semester5 = Semester.find(id: 5)
-
-    in_semester5 = semester5.includes?(level: CompetencyLevel.find(id: '1.2.1'))
-
-    expect(in_semester5).to be true
-  end
-
-  it 'should confirm level in semester 6' do
-    semester6 = Semester.find(id: 6)
-
-    in_semester6 = semester6.includes?(level: CompetencyLevel.find(id: '1.2.2'))
-
-    expect(in_semester6).to be true
-  end
-
-  it 'should confirm level in semester 7' do
-    semester7 = Semester.find(id: 7)
-
-    in_semester7 = semester7.includes?(level: CompetencyLevel.find(id: '1.3.1'))
-
-    expect(in_semester7).to be true
-  end
-
-  it 'should confirm level in semester 8' do
-    semester8 = Semester.find(id: 8)
-
-    in_semester8 = semester8.includes?(level: CompetencyLevel.find(id: '1.3.2'))
-
-    expect(in_semester8).to be true
-  end
-
   it 'should confirm level to be in first semester' do
     first = Semester.first?(50)
     second = Semester.second?(50)
