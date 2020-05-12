@@ -2,8 +2,9 @@
 title: "Troubleshooting/Debugging"
 description: "Wenns mal wieder laenger dauert"
 year_calendar_weeks:
-  ## HTTP
+  ## Logfiles
   3.1.1: 1 33-40
+  3.1.2: 1 33-40
   ## Betriebssysteme
   3.2.1: 1 6-15
   ## Datenbank
