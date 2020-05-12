@@ -1,6 +1,9 @@
 ---
 goals:
-  - Funktionsweise einer Single-Page-Webanwendung verstehen
-  - Erste Beispielstutorials durchgeführt (ohne Framework + Backend)
+  - Weiss wie man Branches sinnvoll benennt
+  - Kann anständig commiten
+  - Schreibt sinnvolle Commit Messages
+  - Kennt allgemeine Best Practises
+
 instruments:
-  - Hilfsmittel sind noch zu definieren.
+  - Git Conventions /sys Puzzle (Gibts auf Anfrage)

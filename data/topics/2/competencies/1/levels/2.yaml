@@ -1,7 +1,8 @@
 ---
 goals:
-  - Kennenlernen der gängigsten Algorithmen
-  - Entwerfen eigener Algorithmen
-  - Lesen und Verstehen von fremdem Code
+  - Kennt die advanced Git Commands und kann dann vielleicht etwas besser mit diesem Git
+  - Weiss wie mit Branches umgehen
+  - Kann Änderungen im Repository nachvollziehen
+
 instruments:
-  - '(Bekannte Algorithmen)[https://medium.com/@codingfreak/top-algorithms-data-structures-concepts-every-computer-science-student-should-know-e0549c67b4ac]'
+  - Git Lab Part 2 (Link TBD)

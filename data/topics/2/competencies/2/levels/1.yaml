@@ -1,8 +1,10 @@
 ---
 goals:
-  - Funktionsweise einer Multi-Pape Applikation verstehen.
-  - Eine einfache Multi-Pape Applikation ohne DB anwenden und erweitern können.
+  - Kennt sich mit Merge Requests aus
+  - Kann Einstellungen am Repository vornehmen
+  - Setzt Berechtigungen richtig
+  - Weiss was eine Pipeline ist
+  - Findet sich auf dem UI zurecht und kann sich mit Infos versorgen falls nötig
+
 instruments:
-  - SpringBoot oder Ruby on Rails zum Erstellen einer dynamische Webseite.
-  - '(Spring Boot Baeldung)[https://www.baeldung.com/spring-boot]'
-  - '(Ruby on Rails)[https://rubyonrails.org/]'
+  - Git Lab Part 3 (Link TBD)
