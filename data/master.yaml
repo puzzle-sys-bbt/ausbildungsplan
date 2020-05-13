@@ -31,7 +31,7 @@ topics:
   year_calendar_weeks:
     6.1.1: 1 33-40
     6.1.2: 2 33-40
-    6.2.1: 1 33-40
+    6.1.3: 2 33-40
   id: '6'
 - title: Das mit dem Git
   description: Sie wissen schon, dieses Git
@@ -42,7 +42,7 @@ topics:
     2.3.1: 1 33-40
   id: '2'
 - title: Team- / Selbstorganisation
-  description: Organisation rund um die komplexe Welt der Applikationsentwicklung.
+  description: Organisation rund um die komplexe Welt der Informatik.
   year_calendar_weeks:
     4.1.1: 1 33-40
     4.1.2: 2 33-40
@@ -95,13 +95,10 @@ competencies:
 - title: scripting
   description: if (coffee.Empty){coffee.Refill();}else{coffee.Drink();}
   id: '1.5'
-- title: Team- / Projektorganisation
-  description: Methoden, Werkzeuge und Wissen rund um die Organisation im Team und
-    in Projekten.
+- title: Netzwerk Basics
+  description: All die schönen Sachen die man angeblich nicht mehr braucht mit diesem
+    Cloud...
   id: '6.1'
-- title: Selbstorganisation/Selbstkompetenz
-  description: Persönliche Organisation, Kommunikation, Lernstrategien
-  id: '6.2'
 - title: Best practices für dieses Git
   description: Wir benutzen jetzt dieses Git. Aber bitte richtig!
   id: '2.3'
@@ -231,30 +228,28 @@ competency_levels:
   - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/6_scripting
   id: 1.5.1
 - goals:
-  - 'Projektmanagement: Meetings kennen und dessen Zweck verstehen'
-  - 'Projektmanagement: Rollen und Aufgabenverteilung'
+  - Kennt das OSI und das TCP/IP Layer Modell
+  - Weiss über die wichtigsten Protokolle Bescheid
+  - Benutzt die richtige Terminologie
+  - Weiss was ein Subnetz ist und kann dies in der Praxis anwenden
   instruments:
-  - Lern-Session
-  - Lernenden-Workshops
-  - 'Learning by Doing: Features/Aufgaben innerhalb der Projektorganisation umsetzen'
+  - Lab Network Basics Part 2
   id: 6.1.2
 - goals:
-  - Sich seiner Rolle im Team bewusst sein
-  - Aufgaben im Team identifizieren und übernehmen
-  - Verantwortung für Aufgaben übernehmen
-  - 'Kommunikation: '
+  - Kennt die physischen Komponenten einer Netzwerkinfrastruktur
+  - Weiss über die verschiedenen Kabeltypen Bescheid
+  - Hat mal einen Server sauber verkabelt
   instruments:
-  - Lern-Session
-  - 'Learning by Doing: Ämtli, Organisation von Events'
+  - Lab Netzwerk Basics Part 1
   id: 6.1.1
 - goals:
-  - 'Kalender: Termineinladungen bestätigen/absagen, Termine erstellen/finden'
-  - 'Kalender: Abwesenheiten erfassen'
-  - 'Notizen: Bei allen Gesprächen/Meetings Notizen machen'
-  - eine Methode/Werkzeug kennen und anwenden für die Verwaltung der eigenen Aufgaben
+  - Weiss wozu eine Firewall da ist und wie sie funktioniert
+  - Kann OPNSense bedienen
+  - Kennt sich mit Rulesets aus und weiss wie diese anzupassen sind
+  - Kann VPN Verbindungen einrichten und debuggen
   instruments:
-  - Learning by Doing
-  id: 6.2.1
+  - Lab Network Basics Part 2
+  id: 6.1.3
 - goals:
   - Weiss wie man Branches sinnvoll benennt
   - Kann anständig commiten
@@ -274,7 +269,7 @@ competency_levels:
 - goals:
   - Weiss was kann man mit diesem Git macht und was nicht
   - Kennt grundlegende Git Konzepte
-  - Kann ein Repository importieren
+  - Kann ein Repository klonen
   - Findet sich mit den Basic Commands zurecht
   instruments:
   - Git Lab Part 1 (Link TBD)
@@ -291,25 +286,24 @@ competency_levels:
 - goals:
   - 'Projektmanagement: Meetings kennen und dessen Zweck verstehen'
   - 'Projektmanagement: Rollen und Aufgabenverteilung'
+  - SCRUM Organisation bei /sys verstehen
   instruments:
-  - Lern-Session
-  - Lernenden-Workshops
   - 'Learning by Doing: Features/Aufgaben innerhalb der Projektorganisation umsetzen'
   id: 4.1.2
 - goals:
   - Sich seiner Rolle im Team bewusst sein
   - Aufgaben im Team identifizieren und übernehmen
   - Verantwortung für Aufgaben übernehmen
-  - 'Kommunikation: '
+  - 'Kommunikation: Kann der Situation angemessen kommunizieren'
   instruments:
-  - Lern-Session
+  - Bei Sprint Review etwas vorstellen
   - 'Learning by Doing: Ämtli, Organisation von Events'
   id: 4.1.1
 - goals:
   - 'Kalender: Termineinladungen bestätigen/absagen, Termine erstellen/finden'
   - 'Kalender: Abwesenheiten erfassen'
-  - 'Notizen: Bei allen Gesprächen/Meetings Notizen machen'
-  - eine Methode/Werkzeug kennen und anwenden für die Verwaltung der eigenen Aufgaben
+  - 'Notizen: Bei Gesprächen/Meetings wo nötig Notizen machen'
+  - Eine Methode/Werkzeug kennen und anwenden für die Verwaltung der eigenen Aufgaben
   instruments:
   - Learning by Doing
   id: 4.2.1
