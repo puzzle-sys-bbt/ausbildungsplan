@@ -1,8 +1,9 @@
 ---
 goals:
-  - 'Kalender: Termineinladungen bestätigen/absagen, Termine erstellen/finden'
-  - 'Kalender: Abwesenheiten erfassen'
-  - 'Notizen: Bei allen Gesprächen/Meetings Notizen machen'
-  - 'eine Methode/Werkzeug kennen und anwenden für die Verwaltung der eigenen Aufgaben'
+  - Kennen der wichtigsten Befehlen zum laufende Prozesse anzuzeigen
+  - Poetterings Systemd lieben
+  - starten/stoppen/enablen etc
+  - killen/nicen/etc
 instruments:
   - Learning by Doing
+  - RHCSA

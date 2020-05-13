@@ -1,8 +1,6 @@
 ---
 goals:
-  - 'Projektmanagement: Meetings kennen und dessen Zweck verstehen'
-  - 'Projektmanagement: Rollen und Aufgabenverteilung'
+  - Sudo / Sudoers etc
 instruments:
   - Lern-Session
-  - Lernenden-Workshops
-  - 'Learning by Doing: Features/Aufgaben innerhalb der Projektorganisation umsetzen'
+  - RHCSA
