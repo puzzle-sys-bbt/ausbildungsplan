@@ -1,24 +1,6 @@
 # This is an automaticly generated file. Don't edit this file manually
 ---
 topics:
-- title: Commandline
-  description: Das mit der Console
-  year_calendar_weeks:
-    1.1.1: 1 33-35
-    1.2.1: 1 33-35
-    1.3.1: 1 33-35
-    1.3.2: 1 33-35
-    1.4.1: 1 33-35
-    1.5.1: 1 33-35
-  id: '1'
-- title: Das mit dem Git
-  description: Sie wissen schon, dieses Git
-  year_calendar_weeks:
-    2.1.1: 1 33-40
-    2.1.2: 2 40-41
-    2.2.1: 1 1-15
-    2.3.1: 1 33-40
-  id: '2'
 - title: Troubleshooting/Debugging
   description: Wenns mal wieder laenger dauert
   year_calendar_weeks:
@@ -27,32 +9,6 @@ topics:
     3.2.1: 1 6-15
     3.3.1: 1 40-48
   id: '3'
-- title: Team- / Selbstorganisation
-  description: Organisation rund um die komplexe Welt der Informatik.
-  year_calendar_weeks:
-    4.1.1: 1 33-40
-    4.1.2: 2 33-40
-    4.2.1: 1 33-40
-  id: '4'
-- title: Ansible
-  description: Hier wird der Servicegedanken automatisiert
-  year_calendar_weeks:
-    5.1.1: 1 33-40
-    5.2.1: 1 33-40
-    5.2.2: 1 33-40
-    5.2.3: 1 33-40
-    5.3.1: 1 33-40
-    5.3.2: 1 33-40
-    5.4.1: 1 33-40
-    5.5.1: 1 33-40
-  id: '5'
-- title: Netzwerk Basics
-  description: Das mit diesen Kabel
-  year_calendar_weeks:
-    6.1.1: 1 33-40
-    6.1.2: 2 33-40
-    6.1.3: 2 33-40
-  id: '6'
 - title: Linux Basic
   description: Das mit dem Pinguin
   year_calendar_weeks:
@@ -67,48 +23,122 @@ topics:
     7.8.1: 1 33-40
     7.9.1: 1 33-40
   id: '7'
+- title: Commandline
+  description: Das mit der Console
+  year_calendar_weeks:
+    1.1.1: 1 33-35
+    1.2.1: 1 33-35
+    1.3.1: 1 33-35
+    1.3.2: 1 33-35
+    1.4.1: 1 33-35
+    1.5.1: 1 33-35
+  id: '1'
+- title: Netzwerk Basics
+  description: Das mit diesen Kabel
+  year_calendar_weeks:
+    6.1.1: 1 33-40
+    6.1.2: 2 33-40
+    6.1.3: 2 33-40
+  id: '6'
+- title: Das mit dem Git
+  description: Sie wissen schon, dieses Git
+  year_calendar_weeks:
+    2.1.1: 1 33-40
+    2.1.2: 2 40-41
+    2.2.1: 1 1-15
+    2.3.1: 1 33-40
+  id: '2'
+- title: Team- / Selbstorganisation
+  description: Organisation rund um die komplexe Welt der Informatik.
+  year_calendar_weeks:
+    4.1.1: 1 33-40
+    4.1.2: 2 33-40
+    4.2.1: 1 33-40
+  id: '4'
 - title: Hardware
-  description: Das mit dem Blaech
+  description: Das mit dem Bläch
   year_calendar_weeks:
     8.1.1: 1 33-40
     8.1.2: 2 33-40
-    8.2.1: 1 33-40
   id: '8'
+- title: Ansible
+  description: Hier wird der Servicegedanken automatisiert
+  year_calendar_weeks:
+    5.1.1: 1 33-40
+    5.2.1: 1 33-40
+    5.2.2: 1 33-40
+    5.2.3: 1 33-40
+    5.3.1: 1 33-40
+    5.3.2: 1 33-40
+    5.4.1: 1 33-40
+    5.5.1: 1 33-40
+  id: '5'
 competencies:
-- title: basic linux commands
-  description: kennen lernen der wichtigsten Befehle auf der Commandzeile
-  id: '1.1'
-- title: Manpages Lab
-  description: Hier werden sie geholfen
-  id: '1.2'
-- title: Text Processing Lab
-  description: Zwei mal drei macht vier, widde widde witt und drei macht neune. Ich
-    mach' mir die Welt, widde widde wie sie mir gefällt
-  id: '1.3'
-- title: VI
-  description: 'Vim: The power tool for everyone!'
-  id: '1.4'
-- title: scripting
-  description: if (coffee.Empty){coffee.Refill();}else{coffee.Drink();}
-  id: '1.5'
-- title: Können Sie mit diesem Git?
-  description: Git Basics und Commands
-  id: '2.1'
-- title: Git Server (Spezifisch für Gitlab)
-  description: Wie man dieses Git mit anderen zusammen benutzen kann
-  id: '2.2'
-- title: Best practices für dieses Git
-  description: Wir benutzen jetzt dieses Git. Aber bitte richtig!
-  id: '2.3'
+- title: Wo finde ich Hilfe und wie beurteile ich gefundene Lösungen
+  description: How to Copy stuff from Stackoverflow
+  id: '3.3'
 - title: Logs
   description: Wo finden wir Informationen zur Fehlersuche
   id: '3.1'
 - title: Hardware Debugging
   description: Finde den Fehler
   id: '3.2'
-- title: Wo finde ich Hilfe und wie beurteile ich gefundene Lösungen
-  description: How to Copy stuff from Stackoverflow
-  id: '3.3'
+- title: Boot
+  description: lernen wie der Pinguin in den Tag startet
+  id: '7.3'
+- title: Userverwaltung Advanced
+  description: Wenn der User aus dem Netz kommt
+  id: '7.7'
+- title: Wenn die Wand brennt ist alles gut
+  description: Oder wie du die NSA von deinem System halltest
+  id: '7.9'
+- title: "/etc/passwd"
+  description: Benutzer und Gruppen auf einem Linux System einrichten
+  id: '7.1'
+- title: Software
+  description: Harte Schale weicher Kern
+  id: '7.6'
+- title: ps faux | cut -d ' ' -f 1 | xargs kill -9
+  description: Umgang mit Prozessen im Pinguin-Zoo
+  id: '7.2'
+- title: Block Speicher
+  description: Daten wollen gehortet werden
+  id: '7.4'
+- title: Security Enhanced Linux
+  description: Oder wieso die NSA auf dein System will
+  id: '7.8'
+- title: Dateien
+  description: Daten wollen gehortet werden
+  id: '7.5'
+- title: Text Processing Lab
+  description: Zwei mal drei macht vier, widde widde witt und drei macht neune. Ich
+    mach' mir die Welt, widde widde wie sie mir gefällt
+  id: '1.3'
+- title: basic linux commands
+  description: kennen lernen der wichtigsten Befehle auf der Commandzeile
+  id: '1.1'
+- title: Manpages Lab
+  description: Hier werden sie geholfen
+  id: '1.2'
+- title: VI
+  description: 'Vim: The power tool for everyone!'
+  id: '1.4'
+- title: scripting
+  description: if (coffee.Empty){coffee.Refill();}else{coffee.Drink();}
+  id: '1.5'
+- title: Netzwerk Basics
+  description: All die schönen Sachen die man angeblich nicht mehr braucht mit diesem
+    Cloud...
+  id: '6.1'
+- title: Best practices für dieses Git
+  description: Wir benutzen jetzt dieses Git. Aber bitte richtig!
+  id: '2.3'
+- title: Können Sie mit diesem Git?
+  description: Git Basics und Commands
+  id: '2.1'
+- title: Git Server (Spezifisch für Gitlab)
+  description: Wie man dieses Git mit anderen zusammen benutzen kann
+  id: '2.2'
 - title: Team- / Projektorganisation
   description: Methoden, Werkzeuge und Wissen rund um die Organisation im Team und
     in Projekten.
@@ -116,6 +146,13 @@ competencies:
 - title: Selbstorganisation/Selbstkompetenz
   description: Persönliche Organisation, Kommunikation, Lernstrategien
   id: '4.2'
+- title: Serverkomponenten kennen, Server einbauen
+  description: Was denn in dem Bläch so alles drinsteckt, wie man damit umgeht und
+    wie so ein Bläch ins Rack kommt
+  id: '8.1'
+- title: Ansible Rollen
+  description: Hier kommt der Servicegedanken in(s) Rollen
+  id: '5.3'
 - title: Einfache Befehle mit Ansible ausfuehren
   description: Methoden, Werkzeuge und Wissen rund um die Adhoc Befehle von Ansible
     aufbauen
@@ -123,54 +160,137 @@ competencies:
 - title: Playbooks erstellen
   description: erste Playbooks schreiben
   id: '5.2'
-- title: Ansible Rollen
-  description: Hier kommt der Servicegedanken in(s) Rollen
-  id: '5.3'
 - title: Secrets mit Vault verwalten
   description: Jetzt aber sicher!
   id: '5.4'
 - title: Ansible to the Moon
   description: How to become a Core Contributer
   id: '5.5'
-- title: Netzwerk Basics
-  description: All die schönen Sachen die man angeblich nicht mehr braucht mit diesem
-    Cloud...
-  id: '6.1'
-- title: "/etc/passwd"
-  description: Benutzer und Gruppen auf einem Linux System einrichten
-  id: '7.1'
-- title: ps faux | cut -d ' ' -f 1 | xargs kill -9
-  description: Umgang mit Prozessen im Pinguin-Zoo
-  id: '7.2'
-- title: Boot
-  description: lernen wie der Pinguin in den Tag startet
-  id: '7.3'
-- title: Block Speicher
-  description: Daten wollen gehortet werden
-  id: '7.4'
-- title: Dateien
-  description: Daten wollen gehortet werden
-  id: '7.5'
-- title: Software
-  description: Harte Schale weicher Kern
-  id: '7.6'
-- title: Userverwaltung Advanced
-  description: Wenn der User aus dem Netz kommt
-  id: '7.7'
-- title: Security Enhanced Linux
-  description: Oder wieso die NSA auf dein System will
-  id: '7.8'
-- title: Wenn die Wand brennt ist alles gut
-  description: Oder wie du die NSA von deinem System halltest
-  id: '7.9'
-- title: Team- / Projektorganisation
-  description: Methoden, Werkzeuge und Wissen rund um die Organisation im Team und
-    in Projekten.
-  id: '8.1'
-- title: Selbstorganisation/Selbstkompetenz
-  description: Persönliche Organisation, Kommunikation, Lernstrategien
-  id: '8.2'
 competency_levels:
+- goals:
+  - erkennen von Sinnvollen Loesungen
+  instruments:
+  - Stackoverflow
+  id: 3.3.1
+- goals:
+  - loggen von skripten
+  - logrotation
+  instruments:
+  - TBD
+  id: 3.1.2
+- goals:
+  - Logfile locations
+  - Journalctl
+  instruments:
+  - TBD
+  id: 3.1.1
+- goals:
+  - Kabelmanagement
+  - Hardware tests
+  instruments:
+  - TV-Business
+  - TBD
+  id: 3.2.1
+- goals:
+  - Runlevels und ihre Bedeutung
+  - Bootprozess kennen
+  - Mit diesem Grub
+  instruments:
+  - Learning by Doing
+  - RHCSA
+  id: 7.3.1
+- goals:
+  - Grundwissen in ldap
+  - Einbinden von ldap auf Systemen
+  instruments:
+  - Learning by Doing
+  - RHCSA
+  id: 7.7.1
+- goals:
+  - Firewall Commands kennen
+  - Rules erstellen
+  - Basic Debugging
+  instruments:
+  - Learning by Doing
+  - RHCSA
+  id: 7.9.1
+- goals:
+  - Sudo / Sudoers etc
+  instruments:
+  - Lern-Session
+  - RHCSA
+  id: 7.1.2
+- goals:
+  - Benutzer einrichten / erstellen
+  - Rechte
+  - Gruppen
+  instruments:
+  - Lern-Session
+  - RHCSA
+  id: 7.1.1
+- goals:
+  - Wie wird Software installiert
+  - Wie mache ich updates
+  - Wie konfiguriere ich software
+  - Machen mir mehr Softwarequellen das Leben einfacher?
+  instruments:
+  - Learning by Doing
+  - RHCSA
+  id: 7.6.1
+- goals:
+  - Kennen der wichtigsten Befehlen zum laufende Prozesse anzuzeigen
+  - Poetterings Systemd lieben
+  - starten/stoppen/enablen etc
+  - killen/nicen/etc
+  instruments:
+  - Learning by Doing
+  - RHCSA
+  id: 7.2.1
+- goals:
+  - Storage systeme
+  - RAID Levels
+  - Partitionierung von Speichermedien
+  - LVM
+  instruments:
+  - Learning by Doing
+  - RHCSA
+  id: 7.4.1
+- goals:
+  - SELinux verstehen
+  - Kontexte setzen
+  - Basic Debugging
+  instruments:
+  - Learning by Doing
+  - RHCSA
+  id: 7.8.1
+- goals:
+  - Filesysteme
+  - ACLs
+  - Verschluesselung
+  - Netzwerk Filesysteme
+  instruments:
+  - Learning by Doing
+  - RHCSA
+  id: 7.5.1
+- goals:
+  - tbd
+  instruments:
+  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/4_text_advanced
+  id: 1.3.2
+- goals:
+  - cut
+  - paste
+  - head
+  - tail
+  - expand und unexpand
+  - sort
+  - tr
+  - uniq
+  - wc und nl
+  - grep
+  instruments:
+  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/3_text_basic
+  id: 1.3.1
 - goals:
   - Die Shell
   - Navigation und Commandline Programme
@@ -191,25 +311,6 @@ competency_levels:
   - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/2_man
   id: 1.2.1
 - goals:
-  - cut
-  - paste
-  - head
-  - tail
-  - expand und unexpand
-  - sort
-  - tr
-  - uniq
-  - wc und nl
-  - grep
-  instruments:
-  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/3_text_basic
-  id: 1.3.1
-- goals:
-  - tbd
-  instruments:
-  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/4_text_advanced
-  id: 1.3.2
-- goals:
   - tbd
   instruments:
   - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/5_vi
@@ -219,6 +320,37 @@ competency_levels:
   instruments:
   - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/6_scripting
   id: 1.5.1
+- goals:
+  - Kennt das OSI und das TCP/IP Layer Modell
+  - Weiss über die wichtigsten Protokolle Bescheid
+  - Benutzt die richtige Terminologie
+  - Weiss was ein Subnetz ist und kann dies in der Praxis anwenden
+  instruments:
+  - Lab Network Basics Part 2
+  id: 6.1.2
+- goals:
+  - Kennt die physischen Komponenten einer Netzwerkinfrastruktur
+  - Weiss über die verschiedenen Kabeltypen Bescheid
+  - Hat mal einen Server sauber verkabelt
+  instruments:
+  - Lab Netzwerk Basics Part 1
+  id: 6.1.1
+- goals:
+  - Weiss wozu eine Firewall da ist und wie sie funktioniert
+  - Kann OPNSense bedienen
+  - Kennt sich mit Rulesets aus und weiss wie diese anzupassen sind
+  - Kann VPN Verbindungen einrichten und debuggen
+  instruments:
+  - Lab Network Basics Part 2
+  id: 6.1.3
+- goals:
+  - Weiss wie man Branches sinnvoll benennt
+  - Kann anständig commiten
+  - Schreibt sinnvolle Commit Messages
+  - Kennt allgemeine Best Practises
+  instruments:
+  - Git Conventions /sys Puzzle (Gibts auf Anfrage)
+  id: 2.3.1
 - goals:
   - Kennt die advanced Git Commands und kann dann vielleicht etwas besser mit diesem
     Git
@@ -245,37 +377,12 @@ competency_levels:
   - Git Lab Part 3 (Link TBD)
   id: 2.2.1
 - goals:
-  - Weiss wie man Branches sinnvoll benennt
-  - Kann anständig commiten
-  - Schreibt sinnvolle Commit Messages
-  - Kennt allgemeine Best Practises
+  - 'Projektmanagement: Meetings kennen und dessen Zweck verstehen'
+  - 'Projektmanagement: Rollen und Aufgabenverteilung'
+  - SCRUM Organisation bei /sys verstehen
   instruments:
-  - Git Conventions /sys Puzzle (Gibts auf Anfrage)
-  id: 2.3.1
-- goals:
-  - Logfile locations
-  - Journalctl
-  instruments:
-  - TBD
-  id: 3.1.1
-- goals:
-  - loggen von skripten
-  - logrotation
-  instruments:
-  - TBD
-  id: 3.1.2
-- goals:
-  - Kabelmanagement
-  - Hardware tests
-  instruments:
-  - TV-Business
-  - TBD
-  id: 3.2.1
-- goals:
-  - erkennen von Sinnvollen Loesungen
-  instruments:
-  - Stackoverflow
-  id: 3.3.1
+  - 'Learning by Doing: Features/Aufgaben innerhalb der Projektorganisation umsetzen'
+  id: 4.1.2
 - goals:
   - Sich seiner Rolle im Team bewusst sein
   - Aufgaben im Team identifizieren und übernehmen
@@ -286,13 +393,6 @@ competency_levels:
   - 'Learning by Doing: Ämtli, Organisation von Events'
   id: 4.1.1
 - goals:
-  - 'Projektmanagement: Meetings kennen und dessen Zweck verstehen'
-  - 'Projektmanagement: Rollen und Aufgabenverteilung'
-  - SCRUM Organisation bei /sys verstehen
-  instruments:
-  - 'Learning by Doing: Features/Aufgaben innerhalb der Projektorganisation umsetzen'
-  id: 4.1.2
-- goals:
   - 'Kalender: Termineinladungen bestätigen/absagen, Termine erstellen/finden'
   - 'Kalender: Abwesenheiten erfassen'
   - 'Notizen: Bei Gesprächen/Meetings wo nötig Notizen machen'
@@ -301,15 +401,42 @@ competency_levels:
   - Learning by Doing
   id: 4.2.1
 - goals:
+  - Sich zutrauen selber einen Server einzubauen oder aufzurüsten
+  - Jeden Part mal in der Hand gehabt haben, "ein "Gefühl dafür haben"
+  - Kann selbstständig eine Laptop Evaluation durchführen
+  - Kennt sich mit Cablemanagement aus
+  instruments:
+  - Lab Hardware Part 2
+  - Ev. Besuch in einem "richtigen" RZ
+  id: 8.1.2
+- goals:
+  - Hardwarekomponenten kennen
+  - Serverräume im allgemeinen
+  - Kann mit Kabel umgehen (Under/Over Coiling)
+  - Weiss auf was im allgemeinen zu achten ist betreffend Verhalten und Best Practises
+    mit Hardware und RZs
+  instruments:
+  - Lab Hardware Part 1
+  id: 8.1.1
+- goals:
+  - handlers
+  - blocks
+  instruments:
+  - Learning by Doing
+  - https://ansible.puzzle.ch/labs
+  id: 5.3.2
+- goals:
+  - Rollen schreiben
+  - unterschied zu Plays
+  instruments:
+  - Learning by Doing
+  - https://ansible.puzzle.ch/labs
+  id: 5.3.1
+- goals:
   - AdHoc Befehle ausfuehren
   instruments:
   - https://ansible.puzzle.ch/labs/
   id: 5.1.1
-- goals:
-  - erstes Playbook geschrieben
-  instruments:
-  - Learning by Doing
-  id: 5.2.1
 - goals:
   - Umgang mit:
     - Variabeln
@@ -321,6 +448,11 @@ competency_levels:
   - https://ansible.puzzle.ch/labs
   id: 5.2.2
 - goals:
+  - erstes Playbook geschrieben
+  instruments:
+  - Learning by Doing
+  id: 5.2.1
+- goals:
   - Umgang mit:
     - Templates
     - Magic
@@ -329,20 +461,6 @@ competency_levels:
   - Learning by Doing
   - https://ansible.puzzle.ch/labs
   id: 5.2.3
-- goals:
-  - Rollen schreiben
-  - unterschied zu Plays
-  instruments:
-  - Learning by Doing
-  - https://ansible.puzzle.ch/labs
-  id: 5.3.1
-- goals:
-  - handlers
-  - blocks
-  instruments:
-  - Learning by Doing
-  - https://ansible.puzzle.ch/labs
-  id: 5.3.2
 - goals:
   - Umgang mit Secrets
   instruments:
@@ -356,135 +474,6 @@ competency_levels:
   - Learning by Doing
   - https://ansible.puzzle.ch/labs
   id: 5.5.1
-- goals:
-  - Kennt die physischen Komponenten einer Netzwerkinfrastruktur
-  - Weiss über die verschiedenen Kabeltypen Bescheid
-  - Hat mal einen Server sauber verkabelt
-  instruments:
-  - Lab Netzwerk Basics Part 1
-  id: 6.1.1
-- goals:
-  - Kennt das OSI und das TCP/IP Layer Modell
-  - Weiss über die wichtigsten Protokolle Bescheid
-  - Benutzt die richtige Terminologie
-  - Weiss was ein Subnetz ist und kann dies in der Praxis anwenden
-  instruments:
-  - Lab Network Basics Part 2
-  id: 6.1.2
-- goals:
-  - Weiss wozu eine Firewall da ist und wie sie funktioniert
-  - Kann OPNSense bedienen
-  - Kennt sich mit Rulesets aus und weiss wie diese anzupassen sind
-  - Kann VPN Verbindungen einrichten und debuggen
-  instruments:
-  - Lab Network Basics Part 2
-  id: 6.1.3
-- goals:
-  - Benutzer einrichten / erstellen
-  - Rechte
-  - Gruppen
-  instruments:
-  - Lern-Session
-  - RHCSA
-  id: 7.1.1
-- goals:
-  - Sudo / Sudoers etc
-  instruments:
-  - Lern-Session
-  - RHCSA
-  id: 7.1.2
-- goals:
-  - Kennen der wichtigsten Befehlen zum laufende Prozesse anzuzeigen
-  - Poetterings Systemd lieben
-  - starten/stoppen/enablen etc
-  - killen/nicen/etc
-  instruments:
-  - Learning by Doing
-  - RHCSA
-  id: 7.2.1
-- goals:
-  - Runlevels und ihre Bedeutung
-  - Bootprozess kennen
-  - Mit diesem Grub
-  instruments:
-  - Learning by Doing
-  - RHCSA
-  id: 7.3.1
-- goals:
-  - Storage systeme
-  - RAID Levels
-  - Partitionierung von Speichermedien
-  - LVM
-  instruments:
-  - Learning by Doing
-  - RHCSA
-  id: 7.4.1
-- goals:
-  - Filesysteme
-  - ACLs
-  - Verschluesselung
-  - Netzwerk Filesysteme
-  instruments:
-  - Learning by Doing
-  - RHCSA
-  id: 7.5.1
-- goals:
-  - Wie wird Software installiert
-  - Wie mache ich updates
-  - Wie konfiguriere ich software
-  - Machen mir mehr Softwarequellen das Leben einfacher?
-  instruments:
-  - Learning by Doing
-  - RHCSA
-  id: 7.6.1
-- goals:
-  - Grundwissen in ldap
-  - Einbinden von ldap auf Systemen
-  instruments:
-  - Learning by Doing
-  - RHCSA
-  id: 7.7.1
-- goals:
-  - SELinux verstehen
-  - Kontexte setzen
-  - Basic Debugging
-  instruments:
-  - Learning by Doing
-  - RHCSA
-  id: 7.8.1
-- goals:
-  - Firewall Commands kennen
-  - Rules erstellen
-  - Basic Debugging
-  instruments:
-  - Learning by Doing
-  - RHCSA
-  id: 7.9.1
-- goals:
-  - Sich seiner Rolle im Team bewusst sein
-  - Aufgaben im Team identifizieren und übernehmen
-  - Verantwortung für Aufgaben übernehmen
-  - 'Kommunikation: '
-  instruments:
-  - Lern-Session
-  - 'Learning by Doing: Ämtli, Organisation von Events'
-  id: 8.1.1
-- goals:
-  - 'Projektmanagement: Meetings kennen und dessen Zweck verstehen'
-  - 'Projektmanagement: Rollen und Aufgabenverteilung'
-  instruments:
-  - Lern-Session
-  - Lernenden-Workshops
-  - 'Learning by Doing: Features/Aufgaben innerhalb der Projektorganisation umsetzen'
-  id: 8.1.2
-- goals:
-  - 'Kalender: Termineinladungen bestätigen/absagen, Termine erstellen/finden'
-  - 'Kalender: Abwesenheiten erfassen'
-  - 'Notizen: Bei allen Gesprächen/Meetings Notizen machen'
-  - eine Methode/Werkzeug kennen und anwenden für die Verwaltung der eigenen Aufgaben
-  instruments:
-  - Learning by Doing
-  id: 8.2.1
 conf:
 - semester:
   - start_at_week_nr: 33
