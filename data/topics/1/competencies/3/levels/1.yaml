@@ -11,4 +11,4 @@ goals:
   - wc und nl
   - grep
 instruments:
-  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/3_text_basic
+  - '[https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/3_text_basic](https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/3_text_basic)'

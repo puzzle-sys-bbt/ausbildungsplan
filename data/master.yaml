@@ -184,8 +184,13 @@ competency_levels:
   - Verwendung von Manpages
   - Erstellen einer eigenen Manpage
   instruments:
-  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/2_man
+  - "[https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/2_man](https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/2_man)"
   id: 1.2.1
+- goals:
+  - tbd
+  instruments:
+  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/4_text_advanced
+  id: 1.3.2
 - goals:
   - cut
   - paste
@@ -198,22 +203,17 @@ competency_levels:
   - wc und nl
   - grep
   instruments:
-  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/3_text_basic
+  - "[https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/3_text_basic](https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/3_text_basic)"
   id: 1.3.1
 - goals:
   - tbd
   instruments:
-  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/4_text_advanced
-  id: 1.3.2
-- goals:
-  - tbd
-  instruments:
-  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/5_vi
+  - "[https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/5_vi](https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/5_vi)"
   id: 1.4.1
 - goals:
   - tbd
   instruments:
-  - https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/6_scripting
+  - "[https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/6_scripting](https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/6_scripting)"
   id: 1.5.1
 - goals:
   - Kennt die advanced Git Commands und kann dann vielleicht etwas besser mit diesem
@@ -299,7 +299,7 @@ competency_levels:
 - goals:
   - AdHoc Befehle ausfuehren
   instruments:
-  - https://ansible.puzzle.ch/labs/
+  - "[https://ansible.puzzle.ch/labs](https://ansible.puzzle.ch/labs)"
   id: 5.1.1
 - goals:
   - erstes Playbook geschrieben
@@ -314,7 +314,7 @@ competency_levels:
     - Glitter
   instruments:
   - Learning by Doing
-  - https://ansible.puzzle.ch/labs
+  - "[https://ansible.puzzle.ch/labs](https://ansible.puzzle.ch/labs)"
   id: 5.2.2
 - goals:
   - Umgang mit:
@@ -323,34 +323,34 @@ competency_levels:
     - Glitter
   instruments:
   - Learning by Doing
-  - https://ansible.puzzle.ch/labs
+  - "[https://ansible.puzzle.ch/labs](https://ansible.puzzle.ch/labs)"
   id: 5.2.3
 - goals:
   - Rollen schreiben
   - unterschied zu Plays
   instruments:
   - Learning by Doing
-  - https://ansible.puzzle.ch/labs
+  - "[https://ansible.puzzle.ch/labs](https://ansible.puzzle.ch/labs)"
   id: 5.3.1
 - goals:
   - handlers
   - blocks
   instruments:
   - Learning by Doing
-  - https://ansible.puzzle.ch/labs
+  - "[https://ansible.puzzle.ch/labs](https://ansible.puzzle.ch/labs)"
   id: 5.3.2
 - goals:
   - Umgang mit Secrets
   instruments:
   - Learning by Doing
-  - https://ansible.puzzle.ch/labs
+  - "[https://ansible.puzzle.ch/labs](https://ansible.puzzle.ch/labs)"
   id: 5.4.1
 - goals:
   - Ansible Galaxy
   - etc.
   instruments:
   - Learning by Doing
-  - https://ansible.puzzle.ch/labs
+  - "[https://ansible.puzzle.ch/labs](https://ansible.puzzle.ch/labs)"
   id: 5.5.1
 - goals:
   - Kennt die physischen Komponenten einer Netzwerkinfrastruktur

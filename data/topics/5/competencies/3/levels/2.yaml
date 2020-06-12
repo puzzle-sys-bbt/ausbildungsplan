@@ -4,4 +4,4 @@ goals:
   - blocks
 instruments:
   - Learning by Doing
-  - https://ansible.puzzle.ch/labs
+  - '[https://ansible.puzzle.ch/labs](https://ansible.puzzle.ch/labs)'

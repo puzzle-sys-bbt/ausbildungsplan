@@ -2,4 +2,4 @@
 goals:
   - 'AdHoc Befehle ausfuehren'
 instruments:
-  - https://ansible.puzzle.ch/labs/
+  - '[https://ansible.puzzle.ch/labs](https://ansible.puzzle.ch/labs)'
