@@ -1,7 +1,14 @@
 ---
 goals:
-  - Was bedeutet User Experience (UX)?
-  - Design und Layout einer Webseite.
-  - Formulare
+  - cut
+  - paste
+  - head
+  - tail
+  - expand und unexpand
+  - sort
+  - tr
+  - uniq
+  - wc und nl
+  - grep
 instruments:
-  - Hilfsmittel sind noch zu definieren.
+  - '[https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/3_text_basic](https://gitlab.puzzle.ch/pitc_sys/sys-labs/-/tree/master/1_commandline/3_text_basic)'

@@ -1,9 +1,8 @@
 ---
 goals:
-  - 'Sich seiner Rolle im Team bewusst sein'
-  - 'Aufgaben im Team identifizieren und übernehmen'
-  - 'Verantwortung für Aufgaben übernehmen'
-  - 'Kommunikation: '
+  - Hardwarekomponenten kennen
+  - Serverräume im allgemeinen
+  - Kann mit Kabel umgehen (Under/Over Coiling)
+  - Weiss auf was im allgemeinen zu achten ist betreffend Verhalten und Best Practises mit Hardware und RZs
 instruments:
-  - Lern-Session
-  - 'Learning by Doing: Ämtli, Organisation von Events'
+  - Lab Hardware Part 1

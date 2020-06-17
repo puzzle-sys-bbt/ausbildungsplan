@@ -1,6 +1,9 @@
 ---
 goals:
-  - Einstieg in die Programmierung
-  - Kennenlernen von Variablen, Typen, Verzweigungen und Schleifen
+  - Weiss was kann man mit diesem Git macht und was nicht
+  - Kennt grundlegende Git Konzepte
+  - Kann ein Repository klonen
+  - Findet sich mit den Basic Commands zurecht
+
 instruments:
-  - Hilfsmittel sind noch zu definieren.
+  - Git Lab Part 1 (Link TBD)

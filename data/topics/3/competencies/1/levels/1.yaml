@@ -1,7 +1,6 @@
 ---
 goals:
-  - 'Textbearbeitung: Texte, Briefe erfassen und stylen, Grafiken'
-  - 'Tabellenkalkulation: Spalten, Zeilen, Operationen, Listen'
-  - 'Präsentationen: Texte, Grafiken, Styles, Inhaltsverzeichnis'
+  - 'Logfile locations'
+  - 'Journalctl'
 instruments:
-  - Praktikum im Backoffice
+  - TBD

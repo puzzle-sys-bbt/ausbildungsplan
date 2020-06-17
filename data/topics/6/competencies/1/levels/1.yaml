@@ -1,9 +1,7 @@
 ---
 goals:
-  - 'Sich seiner Rolle im Team bewusst sein'
-  - 'Aufgaben im Team identifizieren und übernehmen'
-  - 'Verantwortung für Aufgaben übernehmen'
-  - 'Kommunikation: '
+  - Kennt die physischen Komponenten einer Netzwerkinfrastruktur
+  - Weiss über die verschiedenen Kabeltypen Bescheid
+  - Hat mal einen Server sauber verkabelt
 instruments:
-  - Lern-Session
-  - 'Learning by Doing: Ämtli, Organisation von Events'
+  - Lab Netzwerk Basics Part 1

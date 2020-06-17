@@ -1,0 +1,6 @@
+---
+    goals:
+      - 'loggen von skripten'
+      - 'logrotation'
+    instruments:
+      - TBD

@@ -2,8 +2,22 @@
 title: "Linux Basic"
 description: "Das mit dem Pinguin"
 year_calendar_weeks:
-  ## Teamorganisation
+  ## User / Permission stuff
   7.1.1: 1 33-40
   7.1.2: 2 33-40
-  ## Selbstorganiation
+  ## Prozess Handling
   7.2.1: 1 33-40
+  ## Runlevels / Bootprozess / Grub
+  7.3.1: 1 33-40
+  ## Storage / Partitionierung / LVM
+  7.4.1: 1 33-40
+  ## Filesysteme / ACLs / Encrypton / Netzwerk File Systeme
+  7.5.1: 1 33-40
+  ## Software Installation / Update / Konfiguration
+  7.6.1: 1 33-40
+  ## LDAP / AD Integrationen
+  7.7.1: 1 33-40
+  ## SeLinux
+  7.8.1: 1 33-40
+  ## Firewall
+  7.9.1: 1 33-40

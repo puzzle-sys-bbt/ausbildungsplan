@@ -1,0 +1,8 @@
+---
+goals:
+  - Weiss wozu eine Firewall da ist und wie sie funktioniert
+  - Kann OPNSense bedienen
+  - Kennt sich mit Rulesets aus und weiss wie diese anzupassen sind
+  - Kann VPN Verbindungen einrichten und debuggen
+instruments:
+  - Lab Network Basics Part 2

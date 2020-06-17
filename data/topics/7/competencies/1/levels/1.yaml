@@ -1,9 +1,8 @@
 ---
 goals:
-  - 'Sich seiner Rolle im Team bewusst sein'
-  - 'Aufgaben im Team identifizieren und übernehmen'
-  - 'Verantwortung für Aufgaben übernehmen'
-  - 'Kommunikation: '
+  - Benutzer einrichten / erstellen
+  - Rechte
+  - Gruppen
 instruments:
   - Lern-Session
-  - 'Learning by Doing: Ämtli, Organisation von Events'
+  - RHCSA

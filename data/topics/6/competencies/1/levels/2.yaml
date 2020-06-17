@@ -1,8 +1,8 @@
 ---
 goals:
-  - 'Projektmanagement: Meetings kennen und dessen Zweck verstehen'
-  - 'Projektmanagement: Rollen und Aufgabenverteilung'
+  - Kennt das OSI und das TCP/IP Layer Modell
+  - Weiss über die wichtigsten Protokolle Bescheid
+  - Benutzt die richtige Terminologie
+  - Weiss was ein Subnetz ist und kann dies in der Praxis anwenden
 instruments:
-  - Lern-Session
-  - Lernenden-Workshops
-  - 'Learning by Doing: Features/Aufgaben innerhalb der Projektorganisation umsetzen'
+  - Lab Network Basics Part 2
