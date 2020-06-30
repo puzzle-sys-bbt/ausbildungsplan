@@ -3,9 +3,9 @@ title: "Das mit dem Git"
 description: "Sie wissen schon, dieses Git"
 year_calendar_weeks:
   ## Dieses Git benutzen
-  2.1.1: 1 33-40
-  2.1.2: 2 40-41
+  2.1.1: 1 35-39
+  2.1.2: 1 40-42
   ## Git Server
   2.2.1: 1 1-15
   ## Best practices
-  2.3.1: 1 33-40
+  2.3.1: 1 41-45

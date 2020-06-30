@@ -63,6 +63,11 @@ table th:first-child {
   border: none;
   color: white;
 }
+._9 {
+  background-color: #ee00b2;
+  border: none;
+  color: white;
+}
 .dropdown-content {
   display: none;
   color: black;
